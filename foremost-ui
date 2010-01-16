@@ -1,4 +1,15 @@
 #!/usr/bin/env python
+# Some are persistingly maling me screenshots inside Microsoft Word documents
+# and not wanting to install a office suite but still wanting to see the 
+# attached pictures I turned to foremost. but using it from mutt was done in
+# quite a few steps. So I hacked together this beauty.
+#
+# It depends on the floping gnome stack to get thumbnails. But Hey! it's free.
+#
+# I'm using this in my ~/.mailcap 
+# application/msword ; foremost-ui %s
+#
+# Oh by the way do whatever you please with the code.
 
 import sys,os,subprocess,shutil
 from gtk import *
